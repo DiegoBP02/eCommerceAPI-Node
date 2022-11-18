@@ -4,27 +4,27 @@ Possui um sistema de login/registro que permite o usuário acessar as funcionali
 Caso o login tenha sido realizado, o usuário consegue:
 
 ### User
-# Funções disponíveis para o usuário logado:
+-- Funções disponíveis para o usuário logado:
 - Mostrar o usuário atual (show current user) 
 - Acessar um usuário específico (get single user)
 - Atualizar o usuário (update user) 
 - Atualizar a senha do usuário (update user password)
-# Funções disponíveis apenas para os usuários autenticados como admin:
+-- Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todos os usuários (get all users)
 
 ### Product
-# Funções disponíveis para o usuário logado:
+-- Funções disponíveis para o usuário logado:
 - Obter um produto específico (get single product)
 - Obter todos os produtos (get all products)
 - Obter todas as reviews de um produto (get single product reviews)
-# Funções disponíveis apenas para os usuários autenticados como admin:
+-- Funções disponíveis apenas para os usuários autenticados como admin:
 - Criar um produto (create product) 
 - Atualizar um produto (update product) 
 - Deletar um produtor (delete product) 
 - Adicionar uma imagem para o produto (upload image)
 
 ### Review
-# Funções disponíveis para o usuário logado:
+-- Funções disponíveis para o usuário logado:
 - Obter todas as avaliações (get all reviews)
 - Criar uma avaliação (create review)
 - Obter uma avaliação específica (get single review)
@@ -32,12 +32,12 @@ Caso o login tenha sido realizado, o usuário consegue:
 - Deletar uma avaliação (delete review)
 
 ### Order
-# Funções disponíveis para o usuário logado:
+-- Funções disponíveis para o usuário logado:
 - Criar um pedido (create order)
 - Obter um pedido específico (get single order)
 - Mostrar os pedidos do usuário (show current user orders)
 - Atualizar o pedido (update order)
-# Funções disponíveis apenas para os usuários autenticados como admin:
+-- Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todas as ordens (get all orders)
 
 Projeto utiliza o banco de dados MongoDB através da biblioteca mongoose
