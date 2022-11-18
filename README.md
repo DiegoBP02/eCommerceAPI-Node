@@ -9,6 +9,7 @@ Caso o login tenha sido realizado, o usuário consegue:
 - Acessar um usuário específico (get single user)
 - Atualizar o usuário (update user) 
 - Atualizar a senha do usuário (update user password)
+
 -- Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todos os usuários (get all users)
 
@@ -17,6 +18,7 @@ Caso o login tenha sido realizado, o usuário consegue:
 - Obter um produto específico (get single product)
 - Obter todos os produtos (get all products)
 - Obter todas as reviews de um produto (get single product reviews)
+
 -- Funções disponíveis apenas para os usuários autenticados como admin:
 - Criar um produto (create product) 
 - Atualizar um produto (update product) 
@@ -37,6 +39,7 @@ Caso o login tenha sido realizado, o usuário consegue:
 - Obter um pedido específico (get single order)
 - Mostrar os pedidos do usuário (show current user orders)
 - Atualizar o pedido (update order)
+
 -- Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todas as ordens (get all orders)
 
