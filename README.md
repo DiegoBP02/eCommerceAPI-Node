@@ -3,7 +3,7 @@ Projeto feito através do curso do John Smilga de Node, simula o backend de um e
 Possui um sistema de login/registro que permite o usuário acessar as funcionalides do projeto, o usuário também pode se deslogar.
 Caso o login tenha sido realizado, o usuário consegue:
 
-User
+- User
 Funções disponíveis para o usuário logado:
 - Mostrar o usuário atual (show current user) 
 - Acessar um usuário específico (get single user)
@@ -12,7 +12,7 @@ Funções disponíveis para o usuário logado:
 Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todos os usuários (get all users)
 
-Product
+- Product
 Funções disponíveis para o usuário logado:
 - Obter um produto específico (get single product)
 - Obter todos os produtos (get all products)
@@ -23,7 +23,7 @@ Funções disponíveis apenas para os usuários autenticados como admin:
 - Deletar um produtor (delete product) 
 - Adicionar uma imagem para o produto (upload image)
 
-Review
+- Review
 Funções disponíveis para o usuário logado:
 - Obter todas as avaliações (get all reviews)
 - Criar uma avaliação (create review)
@@ -31,7 +31,7 @@ Funções disponíveis para o usuário logado:
 - Atualizar uma avaliação (update review)
 - Deletar uma avaliação (delete review)
 
-Order
+- Order
 Funções disponíveis para o usuário logado:
 - Criar um pedido (create order)
 - Obter um pedido específico (get single order)
