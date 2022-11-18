@@ -1,4 +1,4 @@
-Projeto feito através do curso do John Smilga de Node, simula o backend de um ecommerce. Possui as seguintes funcionalidades:
+Projeto feito através do curso do John Smilga de Node, simula o backend de um e-commerce. Possui as seguintes funcionalidades:
 
 Possui um sistema de login/registro que permite o usuário acessar as funcionalides do projeto, o usuário também pode se deslogar.
 Caso o login tenha sido realizado, o usuário consegue:
