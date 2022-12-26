@@ -49,11 +49,11 @@ Caso o login tenha sido realizado, o usuário consegue:
 - Token armazenado nos cookies do navegador através da biblioteca cookie-parser
 - O sistema responsável por gerenciar a imagem mandada através do (upload image) é feito através da biblioteca express-fileupload
 - Manipulação de erros para erros de validação do mongoose, de emails duplicados e cast errors
--- Uso das bibliotecas seguintes bibliotecas para fornecer a segurança do projeto:
-- helmet: responsável pela seguranças relacionada aos http response headers
+- Uso das bibliotecas seguintes bibliotecas para fornecer segurança ao projeto:
+- helmet: responsável pela segurança relacionada aos http response headers
 - cors: permite o acesso através de domínios diferentes
-- xss-clean: "sanitize the user input" 
-- express-mongo-sanitize: protege contra injeções voltadas ao mongoDB
+- xss-clean: "sanitize the user input"
+- express-mongo-sanitize: protege contra injeções maliciosas direcionadas ao mongoDB
 - Uso da biblioteca express-rate-limit para limitar o número de acessos por um usuário
 - O arquivo json é documentado através da biblioteca docgen, você pode acessar a documentação através do link: https://ecommerceapi-node.onrender.com/#jump-Product-GetSingleProduct
 - Projeto implantado na nuvem através do sistema de nuvem Render
