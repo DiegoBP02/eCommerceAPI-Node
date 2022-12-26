@@ -43,20 +43,20 @@ Caso o login tenha sido realizado, o usuário consegue:
 -- Funções disponíveis apenas para os usuários autenticados como admin:
 - Obter todas as ordens (get all orders)
 
-Projeto utiliza o banco de dados MongoDB através da biblioteca mongoose
-Senha criptografada com o bcryptjs para assegurar a segurança do usuário
-Quando o usuário se loga e passa na autenticação, um token é gerado através da biblioteca jsonwebtoken, que autoriza o usuário acessar as funcionalidades do projeto 
-Token armazenado nos cookies do navegador através da biblioteca cookie-parser
-O sistema responsável por gerenciar a imagem mandada através do (upload image) é feito através da biblioteca express-fileupload
-Manipulação de erros para erros de validação do mongoose, de emails duplicados e cast errors
-Uso das bibliotecas seguintes bibliotecas para fornecer a segurança do projeto:
+- Projeto utiliza o banco de dados MongoDB através da biblioteca mongoose
+- Senha criptografada com o bcryptjs para assegurar a segurança do usuário
+- Quando o usuário se loga e passa na autenticação, um token é gerado através da biblioteca jsonwebtoken, que autoriza o usuário acessar as funcionalidades do projeto 
+- Token armazenado nos cookies do navegador através da biblioteca cookie-parser
+- O sistema responsável por gerenciar a imagem mandada através do (upload image) é feito através da biblioteca express-fileupload
+- Manipulação de erros para erros de validação do mongoose, de emails duplicados e cast errors
+-- Uso das bibliotecas seguintes bibliotecas para fornecer a segurança do projeto:
 - helmet: responsável pela seguranças relacionada aos http response headers
 - cors: permite o acesso através de domínios diferentes
 - xss-clean: "sanitize the user input" 
 - express-mongo-sanitize: protege contra injeções voltadas ao mongoDB
-Uso da biblioteca express-rate-limit para limitar o número de acessos por um usuário
-O arquivo json é documentado através da biblioteca docgen, você pode acessar a documentação através do link: https://ecommerceapi-node.onrender.com/#jump-Product-GetSingleProduct
-Projeto implantado na nuvem através do sistema de nuvem Render
+- Uso da biblioteca express-rate-limit para limitar o número de acessos por um usuário
+- O arquivo json é documentado através da biblioteca docgen, você pode acessar a documentação através do link: https://ecommerceapi-node.onrender.com/#jump-Product-GetSingleProduct
+- Projeto implantado na nuvem através do sistema de nuvem Render
 
 INSTALLATION
 
